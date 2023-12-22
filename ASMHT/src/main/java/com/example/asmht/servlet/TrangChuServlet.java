@@ -28,7 +28,6 @@ public class TrangChuServlet extends HttpServlet {
             this.thongTin(request,response);
         }else if(uri.contains("/trangChu/hienThi")){
             this.trangChu(request,response);
-            System.out.println("hell");
         }
     }
     private void trangChu(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
