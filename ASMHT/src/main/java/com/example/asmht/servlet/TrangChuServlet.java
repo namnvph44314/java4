@@ -26,7 +26,7 @@ public class TrangChuServlet extends HttpServlet {
         String uri=request.getRequestURI();
         if(uri.contains("/thongTin/sanPham")){
             this.thongTin(request,response);
-        }else if(uri.contains("/trangChu/hienThi") && uri.contains("/thongTin/sanPham")){
+        }else if(uri.contains("/trangChu/hienThi")){
             this.trangChu(request,response);
             System.out.println("nam_code");
             System.out.println("update");
